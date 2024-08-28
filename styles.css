@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+}
+
+.articles{
+    
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100%;
+  
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: -20px;
+    margin-left: -30px;
+    margin-top: 50px;
+}
+
+.articles, .cart, .cart1, .cart2{
+    margin-bottom: 10px;
+    padding: 20px;
+    margin-top: 2%;
+    
+    display: inline-flex;
+    text-align: center;
+}
+
+.articles  .cart{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    text-align: center;
+
+}
+
+.articles, .cart, .img{
+    max-width: 100%;
+    height: auto;
+}
+
+.articles, .cart2{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    display:inline-flex;
+    text-align: center;
+   
+}
+
+.articles, .cart2, .img2{
+    max-width: 100%;
+    height: auto;
+}
+
+.articles, .cart1{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
+    display: flex;
+    text-align: left;
+    
+    margin-left: 100px;
+
+}
+
+.articles, .cart1, .img1{
+    max-width: 100%;
+    height: auto;
+}
+
+.articles .cart img:hover{
+    transform: scale(1.1);
+}
+
+.articles .cart1 img:hover{
+    transform: scale(1.1);
+}
+
+.articles .cart2 img:hover{
+    transform: scale(1.1);
+}
+
+.total{
+    margin-top: 390px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin-left: -350px;
+}
+
+.cart{
+    margin-top: 100px;
+    width: 100%;
+    height: 50px;
+    margin-left: 0;
+}
+
+.cart1{
+    margin-top: 120px;
+    margin-left: 0;
+    
+    margin-right: 0;
+    width: 100%;
+}
+
+.cart2{
+    margin-top: -10px;
+    margin-left: -100px;
+    width: 100%;
+    height: 50px;
+}
+
+.item-name{
+    text-align: left;
+    font-size: 15px;
+    margin-left: -15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: -30px;
+
+}
+
+.like-btn{
+    margin-left: -4px;
+    margin-bottom: 1px;
+    font-size: 12px;
+    
+}
+
+.checkout-btn{
+    margin-top: 15px;
+    margin-left: -15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.checkout-btn:hover{
+    background-color: #45a049;
+}
+
+
